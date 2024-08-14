@@ -42,7 +42,8 @@ O projeto requer as seguintes variáveis de ambiente para configurar o acesso ao
    poetry install
    ```
 
-3. Defina as variáveis de ambiente. Você pode criar um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
+3. Defina as variáveis de ambiente.  
+Você pode criar um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
    ```env
    DB_NAME=seu_nome_de_banco_de_dados
    DB_USER=seu_usuario
@@ -51,7 +52,7 @@ O projeto requer as seguintes variáveis de ambiente para configurar o acesso ao
    ```
 
 4. Execute o projeto:
-   ```bash
+   ```bas
    poetry run python <nome_do_seu_script>.py
    ```
 
